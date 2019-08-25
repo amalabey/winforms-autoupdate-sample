@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Squirrel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,25 @@ namespace Contoso.DesktopApp
         public Form1()
         {
             InitializeComponent();
+
+            CheckForUpdate();
+        }
+
+        private async Task CheckForUpdate()
+        {
+            try
+            {
+                using (var mgr = new UpdateManager("C:\\work\\myob\\Contoso.DesktopApp\\Releases"))
+                {
+                    LblStatus.Text = "Status: Checking for updates...";
+                    await mgr.UpdateApp();
+                    LblStatus.Text = "Status: Update check complete..";
+                }
+            }
+            catch (Exception ex)
+            {
+                LblStatus.Text = "Error: "+ex.Message;
+            }
         }
 
         private void Button1_Click(object sender, EventArgs e)
