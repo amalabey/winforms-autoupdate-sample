@@ -43,9 +43,9 @@
 			this.asdfasfdds.Location = new System.Drawing.Point(354, 202);
 			this.asdfasfdds.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.asdfasfdds.Name = "asdfasfdds";
-			this.asdfasfdds.Size = new System.Drawing.Size(511, 58);
+			this.asdfasfdds.Size = new System.Drawing.Size(661, 58);
 			this.asdfasfdds.TabIndex = 0;
-			this.asdfasfdds.Text = "Contoso Desktop App";
+			this.asdfasfdds.Text = "Contoso Desktop App v2.0.6";
 			// 
 			// LblVersion
 			// 
@@ -96,7 +96,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.LightCoral;
+			this.BackColor = System.Drawing.Color.PaleGreen;
 			this.ClientSize = new System.Drawing.Size(1200, 692);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.LblStatus);
