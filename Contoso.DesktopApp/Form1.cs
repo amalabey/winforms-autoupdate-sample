@@ -12,44 +12,80 @@ using System.Windows.Forms;
 
 namespace Contoso.DesktopApp
 {
-    public partial class Form1 : Form
-    {
-        public Form1()
-        {
-            InitializeComponent();
+	public partial class Form1 : Form
+	{
+		private const string updateUrl = "http://127.0.0.1:8081/";
 
-            CheckForUpdate();
+		public Form1()
+		{
+			InitializeComponent();
 
-            AddVersionNumber();
-        }
+			//CheckForUpdate();
+			EnsureLatestUpdate();
 
-        private void AddVersionNumber()
-        {
-            System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
-            FileVersionInfo versionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
-            LblVersion.Text = $" Version: {versionInfo.FileVersion}";
-        }
+			AddVersionNumber();
+		}
 
-        private async Task CheckForUpdate()
-        {
-            try
-            {
-                using (var mgr = new UpdateManager("http://127.0.0.1:8081/"))
-                {
-                    LblStatus.Text = "Status: Checking for updates...";
-                    await mgr.UpdateApp();
-                    LblStatus.Text = "Status: Update check complete..";
-                }
-            }
-            catch (Exception ex)
-            {
-                LblStatus.Text = "Error: "+ex.Message;
-            }
-        }
+		private void AddVersionNumber()
+		{
+			System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+			FileVersionInfo versionInfo = FileVersionInfo.GetVersionInfo(assembly.Location);
+			LblVersion.Text = $" Version: {versionInfo.FileVersion}";
+		}
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Hello from Example Win Forms App!");
-        }
-    }
+		private async Task CheckForUpdate()
+		{
+			try
+			{
+				using (var mgr = new UpdateManager(updateUrl))
+				{
+					LblStatus.Text = "Status: Checking for updates...";
+					await mgr.UpdateApp();
+					LblStatus.Text = "Status: Update check complete..";
+				}
+			}
+			catch (Exception ex)
+			{
+				LblStatus.Text = $"Error: {ex.Message}";
+			}
+		}
+
+		private async Task EnsureLatestUpdate()
+		{
+			try
+			{
+				var requireRestart = false;
+
+				using (var mgr = new UpdateManager(updateUrl))
+				{
+					var updateInfo = await mgr.CheckForUpdate();
+					if (updateInfo.ReleasesToApply.Any())
+					{
+						requireRestart = true;
+
+						var newVersion = updateInfo.FutureReleaseEntry.Version;
+						LblStatus.Text = $"Downloading new release: {newVersion}";
+						await mgr.DownloadReleases(updateInfo.ReleasesToApply);
+						LblStatus.Text = "Applying new release";
+						await mgr.ApplyReleases(updateInfo);
+						LblStatus.Text = "Restarting to load new version";
+					}
+				}
+
+				if (requireRestart)
+				{
+					UpdateManager.RestartApp();
+				}
+			}
+			catch (Exception ex)
+			{
+				LblStatus.Text = $"Error: {ex.Message}";
+			}
+		}
+
+		private void Button1_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show("Hello from Example Win Forms App!");
+		}
+	}
 }
