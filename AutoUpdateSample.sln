@@ -5,9 +5,10 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.DesktopApp", "Contoso.DesktopApp\Contoso.DesktopApp.csproj", "{4461E65B-0B33-472A-9762-8736D1FDF685}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fake", "fake", "{B802A7A8-06BD-4E82-851C-B4520CF25A07}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.FakeDesktopApp", "fake\Contoso.FakeDesktopApp\Contoso.FakeDesktopApp.csproj", "{E4353791-F2C9-4DAA-9C0E-90F430D1BC82}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D7CD16F0-16B1-479E-8DEA-9A4386377CC9}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +20,9 @@ Global
 		{4461E65B-0B33-472A-9762-8736D1FDF685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4461E65B-0B33-472A-9762-8736D1FDF685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4461E65B-0B33-472A-9762-8736D1FDF685}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E4353791-F2C9-4DAA-9C0E-90F430D1BC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4353791-F2C9-4DAA-9C0E-90F430D1BC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4353791-F2C9-4DAA-9C0E-90F430D1BC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4353791-F2C9-4DAA-9C0E-90F430D1BC82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E4353791-F2C9-4DAA-9C0E-90F430D1BC82} = {B802A7A8-06BD-4E82-851C-B4520CF25A07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {307D1072-695B-4392-AFB9-F00AB94A925E}
