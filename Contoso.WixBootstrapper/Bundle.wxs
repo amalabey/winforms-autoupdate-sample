@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Bundle Name="Contoso.WixBootstrapper" Version="1.0.0.0" Manufacturer="ContosoDeveloper" UpgradeCode="0a8cbb42-7240-4f41-8609-505ba583b665">
+		<BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense" />
+
+		<Chain>
+			<MsiPackage SourceFile="SSCERuntime_x64-ENU-4.0.SP1.msi" />
+		</Chain>
+	</Bundle>
+</Wix>
