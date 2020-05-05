@@ -14,9 +14,5 @@ Write-Host "Generating nuget package"
 Write-Host "Creating release using squirrel.exe --releasify"
 .\packages\squirrel.windows.1.9.1\tools\Squirrel.exe `
 --releasify .\Contoso.DesktopApp\bin\Release\ContosoDesktopAppDemo.$($Version).nupkg `
---bootstrapperExe C:\work\winforms-autoupdate-sample\Contoso.WixBootstrapper\bin\Release\Contoso.WixBootstrapper.exe
-#-n "/a /f ContosoAutoUpdateDeveloperCodeSigning.pfx /p Test123$ /fd sha256 /tr http://timestamp.digicert.com /td sha256"
-
-
-Squirrel.exe --releasify .\Contoso.DesktopApp\bin\Release\ContosoDesktopAppDemo.2.0.20.nupkg `
---bootstrapperExe C:\work\winforms-autoupdate-sample\Contoso.WixBootstrapper\bin\Release\Contoso.WixBootstrapper.exe
+--bootstrapperExe C:\work\winforms-autoupdate-sample\Contoso.WixBootstrapper\bin\Release\Contoso.WixBootstrapper.exe `
+-n "/a /f ContosoAutoUpdateDeveloperCodeSigning.pfx /p Test123$ /fd sha256 /tr http://timestamp.digicert.com /td sha256"
