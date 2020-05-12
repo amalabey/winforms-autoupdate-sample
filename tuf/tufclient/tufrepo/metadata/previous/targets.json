@@ -1,0 +1,19 @@
+{
+ "signatures": [
+  {
+   "keyid": "a0e7b65b4ef55b9943911454d6fc901c0d32a168fcbf5580421f6da027a5d7d5",
+   "sig": "aa732019f9079add2411592107353f58e33fa7d0706c5d353014f3f9296dd478fb64b7dcbdea49ada31a9302ff65abfb597355eabaf3ba063a120f65da882c00"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {},
+   "roles": []
+  },
+  "expires": "2020-08-10T12:03:31Z",
+  "spec_version": "1.0.0",
+  "targets": {},
+  "version": 1
+ }
+}

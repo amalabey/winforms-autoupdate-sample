@@ -1,0 +1,22 @@
+{
+ "signatures": [
+  {
+   "keyid": "32fd10c8aa676107a45e7efd1c1485e514e5b2a901345fdf586d7e9ed7dea402",
+   "sig": "f8f8a45b81a881962755c2347b0655d6a8ef127245cca9b4087e70d5c5a91c4d9bfd1ae4680b18978e56cc3116aa4d8dac21048a4a71df0502191155638e380f"
+  }
+ ],
+ "signed": {
+  "_type": "snapshot",
+  "expires": "2020-05-18T04:36:21Z",
+  "meta": {
+   "root.json": {
+    "version": 1
+   },
+   "targets.json": {
+    "version": 5
+   }
+  },
+  "spec_version": "1.0.0",
+  "version": 5
+ }
+}
