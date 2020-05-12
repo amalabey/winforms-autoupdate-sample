@@ -70,7 +70,7 @@ $Env:CC="C:\mingw32\bin\gcc.exe"
 
 Copy the client.py to current directory
 ```
-cd nuitka-client
+cd tufclient-cli
 cp $(get-command client.py).Source .\
 ```
 

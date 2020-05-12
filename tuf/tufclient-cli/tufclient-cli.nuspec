@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tufclient-cli</id>
+    <version>1.0.2</version>
+    <title></title>
+    <authors>Amal.Abeygunawardana</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>My package description.</description>
+  </metadata>
+  <files>
+    <file src="build\tufclient-cli.targets" target="build\tufclient-cli.targets" />
+    <file src="cryptography\hazmat\bindings\_constant_time.pyd" target="cryptography\hazmat\bindings\_constant_time.pyd" />
+    <file src="cryptography\hazmat\bindings\_openssl.pyd" target="cryptography\hazmat\bindings\_openssl.pyd" />
+    <file src="nacl\_sodium.pyd" target="nacl\_sodium.pyd" />
+    <file src="client.exe" target="client.exe" />
+    <file src="pyexpat.pyd" target="pyexpat.pyd" />
+    <file src="select.pyd" target="select.pyd" />
+    <file src="unicodedata.pyd" target="unicodedata.pyd" />
+    <file src="_asyncio.pyd" target="_asyncio.pyd" />
+    <file src="_bz2.pyd" target="_bz2.pyd" />
+    <file src="_cffi_backend.pyd" target="_cffi_backend.pyd" />
+    <file src="_ctypes.pyd" target="_ctypes.pyd" />
+    <file src="_decimal.pyd" target="_decimal.pyd" />
+    <file src="_elementtree.pyd" target="_elementtree.pyd" />
+    <file src="_hashlib.pyd" target="_hashlib.pyd" />
+    <file src="_lzma.pyd" target="_lzma.pyd" />
+    <file src="_msi.pyd" target="_msi.pyd" />
+    <file src="_multiprocessing.pyd" target="_multiprocessing.pyd" />
+    <file src="_overlapped.pyd" target="_overlapped.pyd" />
+    <file src="_socket.pyd" target="_socket.pyd" />
+    <file src="_sqlite3.pyd" target="_sqlite3.pyd" />
+    <file src="_ssl.pyd" target="_ssl.pyd" />
+    <file src="_tkinter.pyd" target="_tkinter.pyd" />
+  </files>
+</package>
