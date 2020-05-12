@@ -81,3 +81,16 @@ python -m nuitka --standalone --mingw64 client.py
 
 Above should generate the client.exe in `client.dist\client.exe`.
 
+## Squirrel+TUF integration
+
+Generate squirrel updates to the application
+```
+.\Distribute.ps1 -Version 2.0.2
+```
+
+Add update files to TUF repository
+```
+cd Releases
+gci | foreach { repo.py --add $_.Name --path ..\tuf }
+```
+

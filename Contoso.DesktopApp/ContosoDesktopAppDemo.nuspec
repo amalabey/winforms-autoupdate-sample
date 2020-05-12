@@ -23,7 +23,6 @@
 		<file src="SharpCompress.dll" target="lib\net45\SharpCompress.dll" />
 		<file src="Splat.dll" target="lib\net45\Splat.dll" />
 		<file src="Squirrel.dll" target="lib\net45\Squirrel.dll" />
-		<file src="build\tufclient-cli.targets" target="lib\net45\build\tufclient-cli.targets" />
 		<file src="cryptography\hazmat\bindings\_constant_time.pyd" target="lib\net45\cryptography\hazmat\bindings\_constant_time.pyd" />
 		<file src="cryptography\hazmat\bindings\_openssl.pyd" target="lib\net45\cryptography\hazmat\bindings\_openssl.pyd" />
 		<file src="nacl\_sodium.pyd" target="lib\net45\nacl\_sodium.pyd" />
@@ -46,7 +45,12 @@
 		<file src="_sqlite3.pyd" target="lib\net45\_sqlite3.pyd" />
 		<file src="_ssl.pyd" target="lib\net45\_ssl.pyd" />
 		<file src="_tkinter.pyd" target="lib\net45\_tkinter.pyd" />
-		<file src="build\tufrepo-metadata.targets" target="lib\net45\build\tufrepo-metadata.targets" />
+		<file src="comctl32.dll" target="lib\net45\comctl32.dll" />
+		<file src="python36.dll" target="lib\net45\python36.dll" />
+		<file src="sqlite3.dll" target="lib\net45\sqlite3.dll" />
+		<file src="tcl86t.dll" target="lib\net45\tcl86t.dll" />
+		<file src="tk86t.dll" target="lib\net45\tk86t.dll" />
+		<file src="vcruntime140.dll" target="lib\net45\vcruntime140.dll" />
 		<file src="tufrepo\metadata\current\1.root.json" target="lib\net45\tufrepo\metadata\current\1.root.json" />
 		<file src="tufrepo\metadata\current\root.json" target="lib\net45\tufrepo\metadata\current\root.json" />
 		<file src="tufrepo\metadata\current\snapshot.json" target="lib\net45\tufrepo\metadata\current\snapshot.json" />

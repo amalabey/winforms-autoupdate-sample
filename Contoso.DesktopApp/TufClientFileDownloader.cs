@@ -76,6 +76,13 @@ namespace Contoso.DesktopApp
 			}
 			var repoUrl = url.Substring(0, lastSlashIndex);
 			var fileName = url.Substring(lastSlashIndex + 1, url.Length - lastSlashIndex - 1);
+
+			var lastQuestionMarkIndex = fileName.LastIndexOf('?');
+			if (lastQuestionMarkIndex >= 0)
+			{
+				fileName = fileName.Substring(0, lastQuestionMarkIndex);
+			}
+
 			return new Tuple<string, string>(repoUrl, fileName);
 		}
 

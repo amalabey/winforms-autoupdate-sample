@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "a0e7b65b4ef55b9943911454d6fc901c0d32a168fcbf5580421f6da027a5d7d5",
-   "sig": "dd073607cb58b766b191a0adb6d08fbe913b96dd7d0799bd64d50f2e029ff6bd5221f1f5c1c070bab638ae39a96800377e88f5736ee15a92ab6fc08d1916f307"
+   "sig": "98bf95e4c9ee7266c45b5b3018ba4983ebc4d945a3ee03865e347e13ca2ba28825735240d25798e9cc15cbc485c15cb701bb1ed630675a1abff85e58f70eed0f"
   }
  ],
  "signed": {
@@ -28,6 +28,146 @@
     },
     "length": 13
    },
+   "ContosoDesktopAppDemo-2.0.21-full.nupkg": {
+    "hashes": {
+     "sha256": "85cfefdb87f30c599e23c856528194ac672fe50b75721eb935ddfc9b9c02d125",
+     "sha512": "3577f70e34e14b6668d5841b7c0772e2d98783f01137d4f9435de21171cc6aa4d0f0a7e0dbbc546e86537dae8c9389a3bd868822fcb7138101d57c304440ce11"
+    },
+    "length": 839575
+   },
+   "ContosoDesktopAppDemo-2.0.25-delta.nupkg": {
+    "hashes": {
+     "sha256": "fd0b6b60ae58083f8f57c1fd3c2f3ea02bb0d49b512fc97ea4c1396a359f7ba3",
+     "sha512": "6b8ebd964262281908334d2ecb8c77189752266fbb2d231a05c307eacb00fd48218527c41fc413de5a72dadce8df5da7bc78f3bbda50642cf5af2e45a50f7cae"
+    },
+    "length": 12874453
+   },
+   "ContosoDesktopAppDemo-2.0.25-full.nupkg": {
+    "hashes": {
+     "sha256": "cc81e3effa28a648ab93efe584622558c882f3678d9fa41ee657ee9e3e8eb83e",
+     "sha512": "a134157b5b4575ef15436a05aea74f89a41fd798f017deeaf93f420cd801af01f9560e1d7cc855c49a033c477148eb02b5bfdea493a5883e37e018530f0db904"
+    },
+    "length": 13696219
+   },
+   "ContosoDesktopAppDemo-2.1.0-delta.nupkg": {
+    "hashes": {
+     "sha256": "dae85a9fd3eb3b1b7688e583e1afb8e1df2851c9ab64f4ac32cb5ce7bbc84b48",
+     "sha512": "2aa284fecaa97e3629f401c72b7259b240e31c94f01a39d0a32d53fdc771463af6804d40efe70014f67b9a5d40ea7cbdd0b2492fe540c08a39a310d9ec94bdcb"
+    },
+    "length": 3437735
+   },
+   "ContosoDesktopAppDemo-2.1.0-full.nupkg": {
+    "hashes": {
+     "sha256": "6ad05ea7ac85f7b76628edbdac9ceeddff919d4c688a558809b611ecd090ec08",
+     "sha512": "4648d3a61cee2b6be0a7ae5a7535baa4352cc297040955424932efc35e77b5acfc1ae7c0c84a3ce192bb93f7db85634613d52d9ddd89352cf48389794e1c7428"
+    },
+    "length": 13696895
+   },
+   "ContosoDesktopAppDemo-2.1.2-delta.nupkg": {
+    "hashes": {
+     "sha256": "1f388225f13f8853878b64eaad60dae6e7af220d7fbbf74b5a962d27af876b7b",
+     "sha512": "19ad6a938ed4ec06269e55bec5356d14ed1474a04678d01a335b793d99db82174ed796cf139ec28cb52c5ccbfbf36c372ce39a6980cacc59da00e051797bd832"
+    },
+    "length": 35258
+   },
+   "ContosoDesktopAppDemo-2.1.3-full.nupkg": {
+    "hashes": {
+     "sha256": "85a3f471f08b227c8f693f2418bc16802c5d8dd0e3c87f949808c47396bf06c9",
+     "sha512": "a0139a7eb892fec36cb71b346022825ef401b886d6b6a20c8f3f525139096230f7a2e8c25d15099bb29de71f88b31389263db6fefde6827a99e6f72a62a413bb"
+    },
+    "length": 13696319
+   },
+   "ContosoDesktopAppDemo-2.1.4-delta.nupkg": {
+    "hashes": {
+     "sha256": "87c6d6ebdcc3a8364a19327073748ee0a9b0189e5e75bb65664b80dfc4a7ae07",
+     "sha512": "c3dc38832cb7efa5a36a4c5d642e61f674bf52dfc25e8d5e89a112af9f68e93c807a2059a2224b3f5d7cd35b5d189c9ba41294b9013bfe204bbe19b919e42eab"
+    },
+    "length": 35254
+   },
+   "ContosoDesktopAppDemo-2.1.4-full.nupkg": {
+    "hashes": {
+     "sha256": "64c06559dba3904b4c38228d11651f9a8112279bee79a4b5c7a25e5442d2a299",
+     "sha512": "0f937770cbe25be5fc17e91426375035fba8ccafe225216679b701933aec3f12fd8057da5af657090282c7758a1b3e52310184812c34dba51194c8fa31895cc5"
+    },
+    "length": 13696338
+   },
+   "ContosoDesktopAppDemo-2.1.5-delta.nupkg": {
+    "hashes": {
+     "sha256": "0454cec79cdf13a7b401edb08a46f818773f5edf993faf27453b63e30f2ef122",
+     "sha512": "8901b9e67077e08df15bb3c0dd9ba4075f35caf99bb485d7973707e31a37e096fdb8c68f22ec472055cce6fe09843b060ed901f7aba721372e6335588983aa85"
+    },
+    "length": 35269
+   },
+   "ContosoDesktopAppDemo-2.1.5-full.nupkg": {
+    "hashes": {
+     "sha256": "1f9b8a90c319bc26daa25d1f6e6887825f4b497efe2d9a71f6da0e4d07c8811d",
+     "sha512": "46fbd5902ebd172b180c0fa4a217322ea4fa5cc16e5879fc06e834f6419659c30ec7e87a8967ba547679bf53fb5adcd9d477cc51371801a3d82308664e56d66b"
+    },
+    "length": 13696364
+   },
+   "ContosoDesktopAppDemo-2.1.6-full.nupkg": {
+    "hashes": {
+     "sha256": "c941d050b6ff6b777a123e433ba4414e980f433f8508ccb2c1cba0b141ca56f9",
+     "sha512": "2d09bc8c0e76a3816c49bcd6dffd66af9f4c74deb36a84471fded391d702b42c6cf50cca898bc6db8e50aba44ae232234a9b70c9f6535048cb3e622f31c5548f"
+    },
+    "length": 13696362
+   },
+   "ContosoDesktopAppDemo-2.1.7-delta.nupkg": {
+    "hashes": {
+     "sha256": "a7248f21c4d83667ad1c0fa462faf684ff4190bc8317b4a0a1d46885956e5711",
+     "sha512": "982d14238319dc20706c0859d55ce1a13e572ca3af11ad96e7f6913b3ca896429841a677ea650c277822229ef2ebdd394838ca490d45e53b1aacae2aada6e86a"
+    },
+    "length": 35380
+   },
+   "ContosoDesktopAppDemo-2.1.7-full.nupkg": {
+    "hashes": {
+     "sha256": "a231cfb396886b4f97b26ee09cbcf3b134cc0bc48034812f486093b853d450bf",
+     "sha512": "61cb6f10b7d49cf009755c1168c684584110f34f6959d6abc33b3f596a2a56ed10868b45293af4e73ac215fe17ea0b69e17a2840cb0080c9cf9402ea0a124f82"
+    },
+    "length": 13696354
+   },
+   "ContosoDesktopAppDemo-2.1.8-delta.nupkg": {
+    "hashes": {
+     "sha256": "3762fb8a23eb971a3e40b1159b4a87c476322dc80c719709b9064e157812d9d0",
+     "sha512": "8b6fdced3239ba005a84eb30dc7926bde18ed399ce4f5f5747ca291a303400024c62dae968922450c1123f31bb5ab7e77f71cb917327c3c81e590512ead18517"
+    },
+    "length": 35282
+   },
+   "ContosoDesktopAppDemo-2.1.8-full.nupkg": {
+    "hashes": {
+     "sha256": "6a2edb8f0b8afa17aeeea0db11b12826f52a7f74d8b8055d4169d562bbc63a68",
+     "sha512": "2cd609c8f10e6a8cc884d12324fbc21e00db51d46037f150a482a5257817300a3adaff0739566d0b2ce6f4b4ea54cea25b429bbe98f57dcb9ccdad79ed679aac"
+    },
+    "length": 13696346
+   },
+   "ContosoDesktopAppDemo.2.1.5.nupkg": {
+    "hashes": {
+     "sha256": "2f501305c15e47201ef5bd682266f9eb7730e59390b4b44ae2ae9deec2ca015a",
+     "sha512": "ed096f80b4afa2980f8a59a0ab3f1f2bbc3192e210629e4ecdeec7c32c27da3fe7c5f7f89e017c62e362821860bb7bf3cc4504ab562d93f4b36a14f02d3d40a4"
+    },
+    "length": 13949100
+   },
+   "RELEASES": {
+    "hashes": {
+     "sha256": "f5db09ed4ea7e609920ac4304c12eede0c5cfc3d8d3e27516c176d9bd36cd5a1",
+     "sha512": "34a7559b8fbf5fb809bc2729c3dc87d58328d4d8da9763196843a74971c5d4c62567097811be2f66eb632ae979759bd53ce85888d3c1e1ce5a117bd694e5070c"
+    },
+    "length": 443
+   },
+   "Setup.exe": {
+    "hashes": {
+     "sha256": "0999d54ba9bd1c75d798fd13eeec56944207a9b7de6fb5bb105f26ca7bc12033",
+     "sha512": "cf7266a4dd5c0d1028a6c7b7508c72784c127805d6a8dde7248d0840044d18af4a1931489e67b33615b0511bd567045997412313f1e257527095e1bfcd2b2daf"
+    },
+    "length": 14541024
+   },
+   "Setup.msi": {
+    "hashes": {
+     "sha256": "b1ef85a6259b65f72ec89abe65662f9718cf3856fd4e911429952276323e556b",
+     "sha512": "1f705125df0b5e2502e7cbe5e530767c502ba2f5f616730508a76158e47c7438ee508558cba342db9792ee49b7f39c8d6226b7e2e6a4195367266e1f54af571c"
+    },
+    "length": 14503936
+   },
    "testfile.txt": {
     "hashes": {
      "sha256": "b1e589eea8c6d951bd8db96e261ee77beb74300fb8ef8c4bc0743f7bbdbbd7a2",
@@ -36,6 +176,6 @@
     "length": 13
    }
   },
-  "version": 5
+  "version": 45
  }
 }

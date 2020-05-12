@@ -14,7 +14,7 @@ namespace Contoso.DesktopApp
 {
 	public partial class Form1 : Form
 	{
-		private const string updateUrl = "http://127.0.0.1:8081/";
+		private const string updateUrl = "http://127.0.0.1:8001/";
 
 		public Form1()
 		{
@@ -56,7 +56,7 @@ namespace Contoso.DesktopApp
 			{
 				var requireRestart = false;
 
-				using (var mgr = new UpdateManager(updateUrl))
+				using (var mgr = new UpdateManager(updateUrl, null, null, new TufClientFileDownloader()))
 				{
 					var updateInfo = await mgr.CheckForUpdate();
 					if (updateInfo.ReleasesToApply.Any())
@@ -88,7 +88,7 @@ namespace Contoso.DesktopApp
 			//MessageBox.Show("Hello from Example Win Forms App!");
 
 			var tufFileDownloaer = new TufClientFileDownloader();
-			tufFileDownloaer.DownloadFile("http://localhost:8001/testfile2.txt", "c:\\temp1\\testfile2.txt",
+			tufFileDownloaer.DownloadFile("http://localhost:8001/testfile.txt", "c:\\temp1\\testfile.txt",
 				(p) => { Console.WriteLine($"Progress: {p}"); });
 		}
 	}
