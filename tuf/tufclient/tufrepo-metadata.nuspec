@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tufrepo-metadata</id>
+    <version>1.0.0</version>
+    <title></title>
+    <authors>Amal.Abeygunawardana</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>My package description.</description>
+  </metadata>
+  <files>
+    <file src="build\tufrepo-metadata.targets" target="build\tufrepo-metadata.targets" />
+    <file src="tufrepo\metadata\current\1.root.json" target="tufrepo\metadata\current\1.root.json" />
+    <file src="tufrepo\metadata\current\root.json" target="tufrepo\metadata\current\root.json" />
+    <file src="tufrepo\metadata\current\snapshot.json" target="tufrepo\metadata\current\snapshot.json" />
+    <file src="tufrepo\metadata\current\targets.json" target="tufrepo\metadata\current\targets.json" />
+    <file src="tufrepo\metadata\current\timestamp.json" target="tufrepo\metadata\current\timestamp.json" />
+    <file src="tufrepo\metadata\previous\1.root.json" target="tufrepo\metadata\previous\1.root.json" />
+    <file src="tufrepo\metadata\previous\root.json" target="tufrepo\metadata\previous\root.json" />
+    <file src="tufrepo\metadata\previous\snapshot.json" target="tufrepo\metadata\previous\snapshot.json" />
+    <file src="tufrepo\metadata\previous\targets.json" target="tufrepo\metadata\previous\targets.json" />
+    <file src="tufrepo\metadata\previous\timestamp.json" target="tufrepo\metadata\previous\timestamp.json" />
+  </files>
+</package>
