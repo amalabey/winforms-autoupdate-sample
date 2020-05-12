@@ -11,27 +11,33 @@
   </metadata>
   <files>
     <file src="build\tufclient-cli.targets" target="build\tufclient-cli.targets" />
-    <file src="cryptography\hazmat\bindings\_constant_time.pyd" target="cryptography\hazmat\bindings\_constant_time.pyd" />
-    <file src="cryptography\hazmat\bindings\_openssl.pyd" target="cryptography\hazmat\bindings\_openssl.pyd" />
-    <file src="nacl\_sodium.pyd" target="nacl\_sodium.pyd" />
-    <file src="client.exe" target="client.exe" />
-    <file src="pyexpat.pyd" target="pyexpat.pyd" />
-    <file src="select.pyd" target="select.pyd" />
-    <file src="unicodedata.pyd" target="unicodedata.pyd" />
-    <file src="_asyncio.pyd" target="_asyncio.pyd" />
-    <file src="_bz2.pyd" target="_bz2.pyd" />
-    <file src="_cffi_backend.pyd" target="_cffi_backend.pyd" />
-    <file src="_ctypes.pyd" target="_ctypes.pyd" />
-    <file src="_decimal.pyd" target="_decimal.pyd" />
-    <file src="_elementtree.pyd" target="_elementtree.pyd" />
-    <file src="_hashlib.pyd" target="_hashlib.pyd" />
-    <file src="_lzma.pyd" target="_lzma.pyd" />
-    <file src="_msi.pyd" target="_msi.pyd" />
-    <file src="_multiprocessing.pyd" target="_multiprocessing.pyd" />
-    <file src="_overlapped.pyd" target="_overlapped.pyd" />
-    <file src="_socket.pyd" target="_socket.pyd" />
-    <file src="_sqlite3.pyd" target="_sqlite3.pyd" />
-    <file src="_ssl.pyd" target="_ssl.pyd" />
-    <file src="_tkinter.pyd" target="_tkinter.pyd" />
+    <file src="client.dist\cryptography\hazmat\bindings\_constant_time.pyd" target="cryptography\hazmat\bindings\_constant_time.pyd" />
+    <file src="client.dist\cryptography\hazmat\bindings\_openssl.pyd" target="cryptography\hazmat\bindings\_openssl.pyd" />
+    <file src="client.dist\nacl\_sodium.pyd" target="nacl\_sodium.pyd" />
+    <file src="client.dist\client.exe" target="client.exe" />
+    <file src="client.dist\pyexpat.pyd" target="pyexpat.pyd" />
+    <file src="client.dist\select.pyd" target="select.pyd" />
+    <file src="client.dist\unicodedata.pyd" target="unicodedata.pyd" />
+    <file src="client.dist\_asyncio.pyd" target="_asyncio.pyd" />
+    <file src="client.dist\_bz2.pyd" target="_bz2.pyd" />
+    <file src="client.dist\_cffi_backend.pyd" target="_cffi_backend.pyd" />
+    <file src="client.dist\_ctypes.pyd" target="_ctypes.pyd" />
+    <file src="client.dist\_decimal.pyd" target="_decimal.pyd" />
+    <file src="client.dist\_elementtree.pyd" target="_elementtree.pyd" />
+    <file src="client.dist\_hashlib.pyd" target="_hashlib.pyd" />
+    <file src="client.dist\_lzma.pyd" target="_lzma.pyd" />
+    <file src="client.dist\_msi.pyd" target="_msi.pyd" />
+    <file src="client.dist\_multiprocessing.pyd" target="_multiprocessing.pyd" />
+    <file src="client.dist\_overlapped.pyd" target="_overlapped.pyd" />
+    <file src="client.dist\_socket.pyd" target="_socket.pyd" />
+    <file src="client.dist\_sqlite3.pyd" target="_sqlite3.pyd" />
+    <file src="client.dist\_ssl.pyd" target="_ssl.pyd" />
+    <file src="client.dist\_tkinter.pyd" target="_tkinter.pyd" />
+    <file src="client.dist\comctl32.dll" target="comctl32.dll" />
+    <file src="client.dist\python36.dll" target="python36.dll" />
+    <file src="client.dist\sqlite3.dll" target="sqlite3.dll" />
+    <file src="client.dist\tcl86t.dll" target="tcl86t.dll" />
+    <file src="client.dist\tk86t.dll" target="tk86t.dll" />
+    <file src="client.dist\vcruntime140.dll" target="vcruntime140.dll" />
   </files>
 </package>

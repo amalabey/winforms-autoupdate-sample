@@ -85,7 +85,11 @@ namespace Contoso.DesktopApp
 
 		private void Button1_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("Hello from Example Win Forms App!");
+			//MessageBox.Show("Hello from Example Win Forms App!");
+
+			var tufFileDownloaer = new TufClientFileDownloader();
+			tufFileDownloaer.DownloadFile("http://localhost:8001/testfile2.txt", "c:\\temp1\\testfile2.txt",
+				(p) => { Console.WriteLine($"Progress: {p}"); });
 		}
 	}
 }

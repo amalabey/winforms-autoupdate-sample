@@ -23,5 +23,39 @@
 		<file src="SharpCompress.dll" target="lib\net45\SharpCompress.dll" />
 		<file src="Splat.dll" target="lib\net45\Splat.dll" />
 		<file src="Squirrel.dll" target="lib\net45\Squirrel.dll" />
+		<file src="build\tufclient-cli.targets" target="lib\net45\build\tufclient-cli.targets" />
+		<file src="cryptography\hazmat\bindings\_constant_time.pyd" target="lib\net45\cryptography\hazmat\bindings\_constant_time.pyd" />
+		<file src="cryptography\hazmat\bindings\_openssl.pyd" target="lib\net45\cryptography\hazmat\bindings\_openssl.pyd" />
+		<file src="nacl\_sodium.pyd" target="lib\net45\nacl\_sodium.pyd" />
+		<file src="client.exe" target="lib\net45\client.exe" />
+		<file src="pyexpat.pyd" target="lib\net45\pyexpat.pyd" />
+		<file src="select.pyd" target="lib\net45\select.pyd" />
+		<file src="unicodedata.pyd" target="lib\net45\unicodedata.pyd" />
+		<file src="_asyncio.pyd" target="lib\net45\_asyncio.pyd" />
+		<file src="_bz2.pyd" target="lib\net45\_bz2.pyd" />
+		<file src="_cffi_backend.pyd" target="lib\net45\_cffi_backend.pyd" />
+		<file src="_ctypes.pyd" target="lib\net45\_ctypes.pyd" />
+		<file src="_decimal.pyd" target="lib\net45\_decimal.pyd" />
+		<file src="_elementtree.pyd" target="lib\net45\_elementtree.pyd" />
+		<file src="_hashlib.pyd" target="lib\net45\_hashlib.pyd" />
+		<file src="_lzma.pyd" target="lib\net45\_lzma.pyd" />
+		<file src="_msi.pyd" target="lib\net45\_msi.pyd" />
+		<file src="_multiprocessing.pyd" target="lib\net45\_multiprocessing.pyd" />
+		<file src="_overlapped.pyd" target="lib\net45\_overlapped.pyd" />
+		<file src="_socket.pyd" target="lib\net45\_socket.pyd" />
+		<file src="_sqlite3.pyd" target="lib\net45\_sqlite3.pyd" />
+		<file src="_ssl.pyd" target="lib\net45\_ssl.pyd" />
+		<file src="_tkinter.pyd" target="lib\net45\_tkinter.pyd" />
+		<file src="build\tufrepo-metadata.targets" target="lib\net45\build\tufrepo-metadata.targets" />
+		<file src="tufrepo\metadata\current\1.root.json" target="lib\net45\tufrepo\metadata\current\1.root.json" />
+		<file src="tufrepo\metadata\current\root.json" target="lib\net45\tufrepo\metadata\current\root.json" />
+		<file src="tufrepo\metadata\current\snapshot.json" target="lib\net45\tufrepo\metadata\current\snapshot.json" />
+		<file src="tufrepo\metadata\current\targets.json" target="lib\net45\tufrepo\metadata\current\targets.json" />
+		<file src="tufrepo\metadata\current\timestamp.json" target="lib\net45\tufrepo\metadata\current\timestamp.json" />
+		<file src="tufrepo\metadata\previous\1.root.json" target="lib\net45\tufrepo\metadata\previous\1.root.json" />
+		<file src="tufrepo\metadata\previous\root.json" target="lib\net45\tufrepo\metadata\previous\root.json" />
+		<file src="tufrepo\metadata\previous\snapshot.json" target="lib\net45\tufrepo\metadata\previous\snapshot.json" />
+		<file src="tufrepo\metadata\previous\targets.json" target="lib\net45\tufrepo\metadata\previous\targets.json" />
+		<file src="tufrepo\metadata\previous\timestamp.json" target="lib\net45\tufrepo\metadata\previous\timestamp.json" />
 	</files>
 </package>

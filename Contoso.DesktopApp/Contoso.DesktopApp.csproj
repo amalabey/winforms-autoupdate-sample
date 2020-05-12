@@ -90,6 +90,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TufClientFileDownloader.cs" />
+    <Compile Include="Utility.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,10 +129,10 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\squirrel.windows.1.9.1\build\squirrel.windows.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\squirrel.windows.1.9.1\build\squirrel.windows.props'))" />
     <Error Condition="!Exists('..\packages\squirrel.windows.1.9.1\build\squirrel.windows.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\squirrel.windows.1.9.1\build\squirrel.windows.targets'))" />
-    <Error Condition="!Exists('..\packages\tufclient-cli.1.0.2\build\tufclient-cli.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\tufclient-cli.1.0.2\build\tufclient-cli.targets'))" />
     <Error Condition="!Exists('..\packages\tufrepo-metadata.1.0.2\build\tufrepo-metadata.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\tufrepo-metadata.1.0.2\build\tufrepo-metadata.targets'))" />
+    <Error Condition="!Exists('..\packages\tufclient-cli.1.0.3\build\tufclient-cli.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\tufclient-cli.1.0.3\build\tufclient-cli.targets'))" />
   </Target>
   <Import Project="..\packages\squirrel.windows.1.9.1\build\squirrel.windows.targets" Condition="Exists('..\packages\squirrel.windows.1.9.1\build\squirrel.windows.targets')" />
-  <Import Project="..\packages\tufclient-cli.1.0.2\build\tufclient-cli.targets" Condition="Exists('..\packages\tufclient-cli.1.0.2\build\tufclient-cli.targets')" />
   <Import Project="..\packages\tufrepo-metadata.1.0.2\build\tufrepo-metadata.targets" Condition="Exists('..\packages\tufrepo-metadata.1.0.2\build\tufrepo-metadata.targets')" />
+  <Import Project="..\packages\tufclient-cli.1.0.3\build\tufclient-cli.targets" Condition="Exists('..\packages\tufclient-cli.1.0.3\build\tufclient-cli.targets')" />
 </Project>
