@@ -88,8 +88,14 @@ namespace Contoso.DesktopApp
 			//MessageBox.Show("Hello from Example Win Forms App!");
 
 			var tufFileDownloaer = new TufClientFileDownloader();
-			tufFileDownloaer.DownloadFile("http://localhost:8001/testfile.txt", "c:\\temp1\\testfile.txt",
-				(p) => { Console.WriteLine($"Progress: {p}"); });
+			tufFileDownloaer.DownloadFile("http://localhost:8001/testfile.txt", "c:\\temp1\\testfile.txt",(p) => { Console.WriteLine($"Progress: {p}"); });
+		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			var programManager = new WindowsProgramManager();
+			var installedProgram = programManager.GetInstalledProgram("Fiddler");
+			programManager.LaunchUninstaller(installedProgram);
 		}
 	}
 }

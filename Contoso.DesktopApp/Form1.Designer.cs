@@ -33,6 +33,7 @@
 			this.button1 = new System.Windows.Forms.Button();
 			this.LblStatus = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
+			this.button2 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// asdfasfdds
@@ -93,12 +94,23 @@
 			this.label1.TabIndex = 4;
 			this.label1.Text = "Now updates from http://127.0.0.1:8081";
 			// 
+			// button2
+			// 
+			this.button2.Location = new System.Drawing.Point(979, 647);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(195, 30);
+			this.button2.TabIndex = 5;
+			this.button2.Text = "Uninstall Program";
+			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.button2_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
 			this.ClientSize = new System.Drawing.Size(1200, 692);
+			this.Controls.Add(this.button2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.LblStatus);
 			this.Controls.Add(this.button1);
@@ -120,6 +132,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label LblStatus;
         private System.Windows.Forms.Label label1;
-    }
+		private System.Windows.Forms.Button button2;
+	}
 }
 
